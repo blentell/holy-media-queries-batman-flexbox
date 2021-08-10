@@ -49,3 +49,50 @@
   width: 100vw;
   background-color: #f08a4b;
 }
+
+@media screen and (max-width: 700px) {
+  #app {
+    font-size: 1em;
+  }
+  
+  #nav {
+    width: 100vw;
+    margin-top: -150px;
+
+  }
+  #middle {
+    flex-direction: column; 
+    width: 100vw;
+    justify-content: center;
+  }
+
+  #main {
+    flex-direction: column;    
+  }
+
+  #articles {
+    width: 100vw;
+  
+  }
+
+  #ads {
+    width: 100vw;
+    margin-bottom: -150px;
+  }
+
+  #header {
+    margin-bottom: -70px;
+  }
+
+  #footer {
+    margin-top: -70px;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  #app {
+    font-size: 3em;
+  }
+
+
+}
